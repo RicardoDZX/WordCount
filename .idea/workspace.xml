@@ -7,6 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="affb7438-bf74-41b4-9161-83908db75a88" name="Default" comment="实现拓展功能。包括-s遍历目录下所有文件，-a输出更详细数据，-e读取忽视单词。&#10;但本版本为测试版，未经过严格测试。&#10;完整版将在下个版本提交。">
+      <change beforePath="$PROJECT_DIR$/WordCount/bin/WordCount.jar" afterPath="$PROJECT_DIR$/WordCount/bin/WordCount.jar" />
+      <change beforePath="$PROJECT_DIR$/WordCount/bin/wc.exe" afterPath="$PROJECT_DIR$/WordCount/bin/wc.exe" />
       <change beforePath="$PROJECT_DIR$/WordCount/src/wordCount_dzx" afterPath="$PROJECT_DIR$/WordCount/src/wordCount_dzx" />
       <change beforePath="$PROJECT_DIR$/src/wordCount_dzx/main.java" afterPath="$PROJECT_DIR$/src/wordCount_dzx/main.java" />
       <change beforePath="$PROJECT_DIR$/src/wordCount_dzx/wordCount.java" afterPath="$PROJECT_DIR$/src/wordCount_dzx/wordCount.java" />
@@ -24,8 +26,8 @@
       <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/wordCount_dzx/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+            <state relative-caret-position="-1908">
+              <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,12 +48,11 @@
       <file leaf-file-name="wordCount.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wordCount_dzx/wordCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="216" column="44" lean-forward="false" selection-start-line="216" selection-start-column="44" selection-end-line="216" selection-end-column="44" />
+            <state relative-caret-position="182">
+              <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-                <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
                 <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
                 <element signature="e#9302#9303#0" expanded="true" />
                 <element signature="e#9333#9334#0" expanded="true" />
@@ -183,9 +184,9 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,10 +356,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296845" sideWeight="0.53216374" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296845" sideWeight="0.5336257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296845" sideWeight="0.46783626" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3296845" sideWeight="0.46637428" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -390,7 +391,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/wordCount_dzx/main.java</url>
-          <line>189</line>
+          <line>190</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
@@ -438,7 +439,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/wordCount_dzx/main.java</url>
-          <line>190</line>
+          <line>191</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
@@ -524,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,7 +535,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -586,7 +585,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -637,7 +635,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -688,7 +685,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -739,7 +735,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -790,7 +785,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -841,7 +835,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -892,7 +885,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -943,7 +935,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -1011,7 +1002,6 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -1063,6 +1053,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1084,22 +1081,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test1.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/wordCount_dzx/wordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="216" column="44" lean-forward="false" selection-start-line="216" selection-start-column="44" selection-end-line="216" selection-end-column="44" />
+        <state relative-caret-position="182">
+          <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#wordCount#0;class#wordCount#0" expanded="false" />
-            <element signature="method#readFileByLine#0;class#wordCount#0" expanded="false" />
             <element signature="method#writeFile#0;class#wordCount#0" expanded="false" />
             <element signature="e#9302#9303#0" expanded="true" />
             <element signature="e#9333#9334#0" expanded="true" />
@@ -1135,8 +1123,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wordCount_dzx/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="73" column="12" lean-forward="false" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+        <state relative-caret-position="-1908">
+          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
