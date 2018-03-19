@@ -1,1 +1,16 @@
-test1.cpp,字符数:0
+main.java,字符数:8363
+main.java,单词数:635
+test.java,字符数:1513
+test.java,单词数:146
+wordCount.java,字符数:10362
+wordCount.java,单词数:666
+test.java,字符数:2179
+test.java,单词数:163
+main.java,字符数:8140
+main.java,单词数:620
+test.java,字符数:1513
+test.java,单词数:146
+wordCount.java,字符数:10252
+wordCount.java,单词数:663
+test.java,字符数:2179
+test.java,单词数:163
