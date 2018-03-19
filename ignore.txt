@@ -1,2 +1,1 @@
-public String 
-for
+out = file else void
