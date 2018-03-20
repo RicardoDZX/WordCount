@@ -10,3 +10,6 @@ wc.exe -w -c -l -a xxx.java -o output.txt -e ignore.txt(仅供参考。)
 -e命令后的忽视词文件应存在。
 不使用-o命令时，默认存放结果于当前目录下result.txt文件中。
 
+经检验，一般测试集结果应该可以跑过.....
+如果有问题请联系我！
+
